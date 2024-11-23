@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'IBM_Plex';
+    src: url('../font/IBM_Plex_Sans/IBMPlexSans-Medium.ttf') format('ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DDDDDD;
+
+}
+
+html {
+    font-family: 'IBM Plex', sans-serif;
+    font-weight: 100;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    scroll-behavior: smooth;
+}
+
+.colors {
+    color: #659D89;
+    color: #999999;
+    color: #DDDDDD;
+
+}
+
+.nav a,
+h1 {
+    color: #659D89;
+}
+
+.nav {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.nav ul {
+    display: block;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+.header_text {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.icons ul {
+    text-align: right;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.icons ul li img {
+    height: 20px;
+}
+
+li {
+    margin-right: 30px;
+}
+
+.gray {
+    color: #999999;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.line {
+    margin-bottom: 50px;
+    border-style: inset;
+    border-color: #FFFFFF;
+
+    margin-left: -35%;
+    margin-right: -35%;
+    
+    box-shadow: 0 1px 1px 1px rgba(171, 170, 170, 0.174);;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+.struggle p, .pFeat {
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 50px;
+}
+
+.pngs {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.imgPNG {
+    display: inline-block;
+    
+}
+
+.imgPNG img {
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+.left {
+    margin-bottom: 50px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.right {
+    margin-bottom: 50px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.resPNG{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-weight: lighter;
+    font-size: 10px;
+
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+
+footer, .marge {
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+footer a{
+    color: black;
+}
+
+footer p {
+    font-size: 10px;
+}
